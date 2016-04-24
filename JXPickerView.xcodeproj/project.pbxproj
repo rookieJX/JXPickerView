@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F18CBC1CCD30B9004601C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F18CBB1CCD30B9004601C4 /* main.m */; };
+		26F18CBF1CCD30B9004601C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F18CBE1CCD30B9004601C4 /* AppDelegate.m */; };
+		26F18CC21CCD30B9004601C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F18CC11CCD30B9004601C4 /* ViewController.m */; };
+		26F18CC51CCD30B9004601C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F18CC31CCD30B9004601C4 /* Main.storyboard */; };
+		26F18CC71CCD30B9004601C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F18CC61CCD30B9004601C4 /* Assets.xcassets */; };
+		26F18CCA1CCD30B9004601C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F18CC81CCD30B9004601C4 /* LaunchScreen.storyboard */; };
+		26F18CD51CCD30B9004601C4 /* JXPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F18CD41CCD30B9004601C4 /* JXPickerViewTests.m */; };
+		26F18CE01CCD30B9004601C4 /* JXPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F18CDF1CCD30B9004601C4 /* JXPickerViewUITests.m */; };
+		26F18CEE1CCD30EC004601C4 /* provinces.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26F18CED1CCD30EC004601C4 /* provinces.plist */; };
+		26F18CF11CCD37DB004601C4 /* JXProvincesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F18CF01CCD37DB004601C4 /* JXProvincesModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26F18CD11CCD30B9004601C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F18CAF1CCD30B9004601C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F18CB61CCD30B9004601C4;
+			remoteInfo = JXPickerView;
+		};
+		26F18CDC1CCD30B9004601C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F18CAF1CCD30B9004601C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F18CB61CCD30B9004601C4;
+			remoteInfo = JXPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26F18CB71CCD30B9004601C4 /* JXPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F18CBB1CCD30B9004601C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26F18CBD1CCD30B9004601C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26F18CBE1CCD30B9004601C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26F18CC01CCD30B9004601C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26F18CC11CCD30B9004601C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26F18CC41CCD30B9004601C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26F18CC61CCD30B9004601C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26F18CC91CCD30B9004601C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26F18CCB1CCD30B9004601C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F18CD01CCD30B9004601C4 /* JXPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F18CD41CCD30B9004601C4 /* JXPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXPickerViewTests.m; sourceTree = "<group>"; };
+		26F18CD61CCD30B9004601C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F18CDB1CCD30B9004601C4 /* JXPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F18CDF1CCD30B9004601C4 /* JXPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXPickerViewUITests.m; sourceTree = "<group>"; };
+		26F18CE11CCD30B9004601C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F18CED1CCD30EC004601C4 /* provinces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces.plist; sourceTree = "<group>"; };
+		26F18CEF1CCD37DB004601C4 /* JXProvincesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXProvincesModel.h; sourceTree = "<group>"; };
+		26F18CF01CCD37DB004601C4 /* JXProvincesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXProvincesModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26F18CB41CCD30B9004601C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F18CCD1CCD30B9004601C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F18CD81CCD30B9004601C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26F18CAE1CCD30B9004601C4 = {
+			isa = PBXGroup;
+			children = (
+				26F18CB91CCD30B9004601C4 /* JXPickerView */,
+				26F18CD31CCD30B9004601C4 /* JXPickerViewTests */,
+				26F18CDE1CCD30B9004601C4 /* JXPickerViewUITests */,
+				26F18CB81CCD30B9004601C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26F18CB81CCD30B9004601C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F18CB71CCD30B9004601C4 /* JXPickerView.app */,
+				26F18CD01CCD30B9004601C4 /* JXPickerViewTests.xctest */,
+				26F18CDB1CCD30B9004601C4 /* JXPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F18CB91CCD30B9004601C4 /* JXPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				26F18CBD1CCD30B9004601C4 /* AppDelegate.h */,
+				26F18CBE1CCD30B9004601C4 /* AppDelegate.m */,
+				26F18CC01CCD30B9004601C4 /* ViewController.h */,
+				26F18CC11CCD30B9004601C4 /* ViewController.m */,
+				26F18CEF1CCD37DB004601C4 /* JXProvincesModel.h */,
+				26F18CF01CCD37DB004601C4 /* JXProvincesModel.m */,
+				26F18CBA1CCD30B9004601C4 /* Supporting Files */,
+			);
+			path = JXPickerView;
+			sourceTree = "<group>";
+		};
+		26F18CBA1CCD30B9004601C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26F18CC31CCD30B9004601C4 /* Main.storyboard */,
+				26F18CC61CCD30B9004601C4 /* Assets.xcassets */,
+				26F18CC81CCD30B9004601C4 /* LaunchScreen.storyboard */,
+				26F18CCB1CCD30B9004601C4 /* Info.plist */,
+				26F18CED1CCD30EC004601C4 /* provinces.plist */,
+				26F18CBB1CCD30B9004601C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26F18CD31CCD30B9004601C4 /* JXPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				26F18CD41CCD30B9004601C4 /* JXPickerViewTests.m */,
+				26F18CD61CCD30B9004601C4 /* Info.plist */,
+			);
+			path = JXPickerViewTests;
+			sourceTree = "<group>";
+		};
+		26F18CDE1CCD30B9004601C4 /* JXPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26F18CDF1CCD30B9004601C4 /* JXPickerViewUITests.m */,
+				26F18CE11CCD30B9004601C4 /* Info.plist */,
+			);
+			path = JXPickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F18CB61CCD30B9004601C4 /* JXPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F18CE41CCD30B9004601C4 /* Build configuration list for PBXNativeTarget "JXPickerView" */;
+			buildPhases = (
+				26F18CB31CCD30B9004601C4 /* Sources */,
+				26F18CB41CCD30B9004601C4 /* Frameworks */,
+				26F18CB51CCD30B9004601C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXPickerView;
+			productName = JXPickerView;
+			productReference = 26F18CB71CCD30B9004601C4 /* JXPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26F18CCF1CCD30B9004601C4 /* JXPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F18CE71CCD30B9004601C4 /* Build configuration list for PBXNativeTarget "JXPickerViewTests" */;
+			buildPhases = (
+				26F18CCC1CCD30B9004601C4 /* Sources */,
+				26F18CCD1CCD30B9004601C4 /* Frameworks */,
+				26F18CCE1CCD30B9004601C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F18CD21CCD30B9004601C4 /* PBXTargetDependency */,
+			);
+			name = JXPickerViewTests;
+			productName = JXPickerViewTests;
+			productReference = 26F18CD01CCD30B9004601C4 /* JXPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26F18CDA1CCD30B9004601C4 /* JXPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F18CEA1CCD30B9004601C4 /* Build configuration list for PBXNativeTarget "JXPickerViewUITests" */;
+			buildPhases = (
+				26F18CD71CCD30B9004601C4 /* Sources */,
+				26F18CD81CCD30B9004601C4 /* Frameworks */,
+				26F18CD91CCD30B9004601C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F18CDD1CCD30B9004601C4 /* PBXTargetDependency */,
+			);
+			name = JXPickerViewUITests;
+			productName = JXPickerViewUITests;
+			productReference = 26F18CDB1CCD30B9004601C4 /* JXPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26F18CAF1CCD30B9004601C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Wangjiaxiang;
+				TargetAttributes = {
+					26F18CB61CCD30B9004601C4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6F399U28WY;
+					};
+					26F18CCF1CCD30B9004601C4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6F399U28WY;
+						TestTargetID = 26F18CB61CCD30B9004601C4;
+					};
+					26F18CDA1CCD30B9004601C4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6F399U28WY;
+						TestTargetID = 26F18CB61CCD30B9004601C4;
+					};
+				};
+			};
+			buildConfigurationList = 26F18CB21CCD30B9004601C4 /* Build configuration list for PBXProject "JXPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26F18CAE1CCD30B9004601C4;
+			productRefGroup = 26F18CB81CCD30B9004601C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26F18CB61CCD30B9004601C4 /* JXPickerView */,
+				26F18CCF1CCD30B9004601C4 /* JXPickerViewTests */,
+				26F18CDA1CCD30B9004601C4 /* JXPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26F18CB51CCD30B9004601C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F18CCA1CCD30B9004601C4 /* LaunchScreen.storyboard in Resources */,
+				26F18CC71CCD30B9004601C4 /* Assets.xcassets in Resources */,
+				26F18CEE1CCD30EC004601C4 /* provinces.plist in Resources */,
+				26F18CC51CCD30B9004601C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F18CCE1CCD30B9004601C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F18CD91CCD30B9004601C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26F18CB31CCD30B9004601C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F18CC21CCD30B9004601C4 /* ViewController.m in Sources */,
+				26F18CF11CCD37DB004601C4 /* JXProvincesModel.m in Sources */,
+				26F18CBF1CCD30B9004601C4 /* AppDelegate.m in Sources */,
+				26F18CBC1CCD30B9004601C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F18CCC1CCD30B9004601C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F18CD51CCD30B9004601C4 /* JXPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F18CD71CCD30B9004601C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F18CE01CCD30B9004601C4 /* JXPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26F18CD21CCD30B9004601C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F18CB61CCD30B9004601C4 /* JXPickerView */;
+			targetProxy = 26F18CD11CCD30B9004601C4 /* PBXContainerItemProxy */;
+		};
+		26F18CDD1CCD30B9004601C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F18CB61CCD30B9004601C4 /* JXPickerView */;
+			targetProxy = 26F18CDC1CCD30B9004601C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26F18CC31CCD30B9004601C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F18CC41CCD30B9004601C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26F18CC81CCD30B9004601C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F18CC91CCD30B9004601C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26F18CE21CCD30B9004601C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26F18CE31CCD30B9004601C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F18CE51CCD30B9004601C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preson.JXPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26F18CE61CCD30B9004601C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preson.JXPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26F18CE81CCD30B9004601C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preson.JXPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXPickerView.app/JXPickerView";
+			};
+			name = Debug;
+		};
+		26F18CE91CCD30B9004601C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preson.JXPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXPickerView.app/JXPickerView";
+			};
+			name = Release;
+		};
+		26F18CEB1CCD30B9004601C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preson.JXPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXPickerView;
+			};
+			name = Debug;
+		};
+		26F18CEC1CCD30B9004601C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.preson.JXPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F18CB21CCD30B9004601C4 /* Build configuration list for PBXProject "JXPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F18CE21CCD30B9004601C4 /* Debug */,
+				26F18CE31CCD30B9004601C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F18CE41CCD30B9004601C4 /* Build configuration list for PBXNativeTarget "JXPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F18CE51CCD30B9004601C4 /* Debug */,
+				26F18CE61CCD30B9004601C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26F18CE71CCD30B9004601C4 /* Build configuration list for PBXNativeTarget "JXPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F18CE81CCD30B9004601C4 /* Debug */,
+				26F18CE91CCD30B9004601C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26F18CEA1CCD30B9004601C4 /* Build configuration list for PBXNativeTarget "JXPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F18CEB1CCD30B9004601C4 /* Debug */,
+				26F18CEC1CCD30B9004601C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26F18CAF1CCD30B9004601C4 /* Project object */;
+}
